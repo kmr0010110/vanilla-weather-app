@@ -8,11 +8,13 @@ h1 {
   font-weight: 200;
   line-height: 26px;
   text-transform: lowercase;
+  text-align: center;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 li {
@@ -23,6 +25,7 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 16px;
+  margin-top: 10px;
 }
 
 a {
@@ -50,6 +53,7 @@ a {
   height: 60px;
   vertical-align: top;
   width: 60px;
+  margin-left: 30px;
 }
 
 .weather-temperature strong {
@@ -85,4 +89,7 @@ a {
 }
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+.row {
+  margin-top: 40px;
 }
