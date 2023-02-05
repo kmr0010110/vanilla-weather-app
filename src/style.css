@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/Users/kiramidgley/Desktop/weather-app/src/images/mediumguillaume-galtier-3YrppYQPoCI-unsplash.jpg");
 }
 
 h1 {
@@ -41,6 +42,7 @@ a {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
+  background: rgba(232, 232, 232, 0.4);
 }
 
 .overview {
@@ -71,6 +73,7 @@ a {
 
 .source-code {
   text-decoration: none;
+  color: #e45a8f;
 }
 
 .weather-temperature .active {
@@ -92,4 +95,29 @@ a {
 }
 .row {
   margin-top: 40px;
+}
+.btn-primary {
+  background-color: #e45a8f;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #f082ac;
 }
